@@ -3,24 +3,15 @@ const express = require('express');
 const routes = express.Router();
 
 const methods = require('./methods');
-/*
-// Cadastra usuário
-routes.post('/cadastrarUsuario', methods.userCreate);
 
-// Atualiza usuário
+// Cadastrar usuário
+routes.post('/cadastrarUsuario', methods.userCreate);
+/*
+// Atualizar usuário
 routes.put('/atualizarUsuario', methods.userUpdate);
 
-// Deleta usuário
+// Deletar usuário
 routes.delete('/apagarUsuario', methods.userDelete);
-
-// Cadastra administrador
-routes.post('/cadastrarAdmin', methods.admCreate);
-
-// Atualiza administrador
-routes.put('/atualizarAdmin', methods.admUpdate);
-
-// Deleta administrador
-routes.delete('/apagarAdmin', methods.admDelete);
 
 */
 

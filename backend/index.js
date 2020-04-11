@@ -7,6 +7,9 @@ const path = require('path');
 const dataBase = require('./dataBase');
 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended : true}));
+
+app.use(routes);
 
 dataBase.connect((err) => {
     if(err){
@@ -19,4 +22,3 @@ dataBase.connect((err) => {
         });
     }
 })
-
